@@ -20,10 +20,12 @@ button {
 
 a {
     text-decoration: none;
+    color: black; 
 }
 
 a:hover {
     text-decoration: underline;
+    color: black; 
 }
 
 a:visited { 
@@ -141,7 +143,6 @@ nav {
 
 #container {
     display: flex;
-
     width: 70%;
     margin: 0 auto;
     flex-direction: row;
@@ -153,6 +154,7 @@ nav {
     border-top: none;
     border-color: rgba(0, 0, 0, 0.171);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 20px;
 }
 
 #content {
@@ -181,7 +183,6 @@ nav {
     border-color: #6767683a;
     text-align: center;
     
-
 }
 
 .article1 {
@@ -243,9 +244,8 @@ nav {
 
 #trendingArticles {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -266,7 +266,7 @@ nav {
     display: inline-flex;
     flex-direction: row;
     min-height: 300px;
-    width: 700px;
+    width: 500px;
     background-color: #f3f5fa;
     border-radius: 5px;
     margin-bottom: 50px;
@@ -288,7 +288,7 @@ nav {
 
     .box {
         flex-direction: column;
-        width: 400px;
+        width: 200px;
     }
 }
 
